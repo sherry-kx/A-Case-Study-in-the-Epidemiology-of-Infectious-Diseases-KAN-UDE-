@@ -5,7 +5,7 @@ This repository contains the complete implementation code for our comparative st
 ## Project Structure
 
 The code is organized into two main experimental settings: `A` and `R`, each of which includes:
-A and R respectively indicate whether the data used are newly infected cases or daily reported cases.
+ `A` and `R` respectively indicate whether the data used are newly infected cases or daily reported cases.
 - `MLPVSKAN/` – Comparative analysis between MLP and KAN.
 - `mlp$KAN/` – Performance testing and plotting for various hidden units (5, 8, 16, 32, 64, 128).
 - `Noisy/` – Experimentation on noisy datasets (with compartment subfolders like `E`, `SI`, `fenshi`, and `t`).
